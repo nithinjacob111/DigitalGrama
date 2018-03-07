@@ -24,7 +24,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String pass = pwd.getText().toString();
                 String username = user.getText().toString();
-                if (username.equals("admin") || pass.equals("12345")){
+                if (username.equals("admin") && pass.equals("12345")){
 
                     Toast.makeText(LoginActivity.this, "Log-in Successful", Toast.LENGTH_SHORT).show();
 
