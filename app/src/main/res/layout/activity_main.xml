@@ -16,7 +16,7 @@
         android:layout_weight="1"
         android:fontFamily="sans-serif-thin"
         android:shadowColor="#000000"
-        android:text="Digital Gramam"
+        android:text="Digital Grama"
         android:textAlignment="center"
         android:textColor="#ffffff"
         android:textSize="80dp" />
