@@ -17,7 +17,7 @@ import android.widget.Button;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    Button b;
+    Button b,b2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +31,15 @@ public class HomeActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 Intent i=new Intent(HomeActivity.this,AddIndividualDataActivity.class);
+                finish();
+                startActivity(i);
+            }
+        });
+        b2=(Button)findViewById(R.id.button2);
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(HomeActivity.this,AddFamilyDetails.class);
                 finish();
                 startActivity(i);
             }
