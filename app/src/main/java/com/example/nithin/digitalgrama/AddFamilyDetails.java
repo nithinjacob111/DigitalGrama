@@ -12,8 +12,8 @@ public class AddFamilyDetails extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_family_details);
-        myweb=(WebView)findViewById(R.id.myWebView);
-        myweb.getSettings().getJavaScriptEnabled();
+        WebView myweb=findViewById(R.id.myWebView);
+        myweb.getSettings().setJavaScriptEnabled(true);
         myweb.setWebViewClient(new WebViewClient());
         myweb.loadUrl("https://goo.gl/forms/rBf43TPRBHR3lOgq1");
     }
