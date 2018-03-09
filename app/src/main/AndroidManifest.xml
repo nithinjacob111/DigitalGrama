@@ -22,16 +22,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".HomeActivity"
-            android:label="@string/title_activity_home"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".AddIndividualDataActivity"
             android:label="Add Individual Details"
             android:screenOrientation="portrait" />
         <activity
             android:name=".LoginActivity"
+            android:label="Login"
             android:screenOrientation="portrait" />
         <activity
             android:name=".AddFamilyDetails"
@@ -39,6 +35,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".HomeScreenActivity"
+            android:label="Home"
             android:screenOrientation="portrait" />
     </application>
 
