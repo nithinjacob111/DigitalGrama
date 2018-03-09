@@ -23,7 +23,7 @@ public class AddIndividualDataActivity extends AppCompatActivity {
     }
     @Override
     public void onBackPressed() {
-        Intent i=new Intent(AddIndividualDataActivity.this,HomeActivity.class);
+        Intent i=new Intent(AddIndividualDataActivity.this,HomeScreenActivity.class);
         finish();
         startActivity(i);
         return;

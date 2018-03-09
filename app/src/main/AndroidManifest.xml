@@ -3,6 +3,7 @@
     package="com.example.nithin.digitalgrama">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -28,14 +29,17 @@
         <activity
             android:name=".AddIndividualDataActivity"
             android:label="Add Individual Details"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".LoginActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".AddFamilyDetails"
             android:label="Add Family Details"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeScreenActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

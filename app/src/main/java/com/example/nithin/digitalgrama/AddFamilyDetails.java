@@ -19,7 +19,7 @@ public class AddFamilyDetails extends AppCompatActivity {
     }
     @Override
     public void onBackPressed() {
-        Intent i=new Intent(AddFamilyDetails.this,HomeActivity.class);
+        Intent i=new Intent(AddFamilyDetails.this,HomeScreenActivity.class);
         finish();
         startActivity(i);
         return;
